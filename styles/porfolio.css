@@ -39,6 +39,9 @@
     line-height:30px ;
     color: #757575 ;
 }
+.text-center {
+    text-align: center;
+}
 /* main style */
 .logo h2{
     font-size: 45px;
@@ -54,7 +57,7 @@ header{
     padding-top: 50px;
     background:url(../images/developer.png),url(../images/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
 
 }
 nav{
@@ -111,7 +114,7 @@ nav .menu a {
     max-height: 676px;
     vertical-align: middle;
 }
-#about{
+#about, #skill, #resume {
     padding-top: 130px;
 
 }
@@ -132,9 +135,7 @@ nav .menu a {
     font-size: 20px;
     color: #757575;
 }
-#skill {
-    padding-top: 130px;
-}#skill .skill-container {
+#skill .skill-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -168,5 +169,86 @@ nav .menu a {
     color: #757575;
 
 }
+#resume .resume-heading {
+    text-align: center;
+}
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin:113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-container .section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume-card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume-card .card-info {
+    font-size: 20px;
+    font: weight 600px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.resume-container hr {
+    margin: 30px;
+}
+
+.resume-card .card-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    /* margin-bottom: 20px; */
+
+}
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0px ;
+}
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin:0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container .social {
+    max-width: 562px;
+}
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .social p {
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .icon a {
+    margin-right: 24px;
+}
+.footer-container form input[type="text"],.footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 10px;
+    color: #757575;
+}
+
 
 
